@@ -1,0 +1,461 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Lotería Mexicana</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="apple-touch-icon" href="">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/revoulation.css">
+    <link rel="stylesheet" href="css/plugins.css">
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="template-color-1 template-font-1">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Start PReloader -->
+    <div id="page-preloader" class="page-loading clearfix">
+        <div class="page-load-inner">
+            <div class="preloader-wrap">
+                <div class="wrap-2">
+                    <div class=""> <img src="img/icons/brook-preloader.gif" alt="Brook Preloader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End PReloader -->
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="wrapper">
+
+        <!-- Header -->
+        <header
+            class="br_header header-default position-from--top header-transparent light-logo--version haeder-fixed-width headroom--sticky header-mega-menu clearfix">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header__wrapper mr--0">
+                            <!-- Header Left -->
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo-loteria.png" alt="Brook Images">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Mainmenu Wrap -->
+                            <div class="mainmenu-wrapper d-none d-lg-block">
+                                <nav class="page_nav">
+                                    <ul class="mainmenu">
+
+                                        <li class="lavel-1 with--drop slide--megamenu"><a
+                                                href="index.html"><span>Inicio</span></a>
+                                        </li>
+                                        <li class="lavel-1 with--drop slide--megamenu"><a
+                                                href="cartones.html"><span>Comprar Cartones</span></a>
+                                        </li>
+                                        <li class="lavel-1 with--drop slide--megamenu" id="transmision"><a
+                                                href="cartones.html"><span>Transmisión en vivo</span></a>
+                                        </li>
+                                        <!--<li class="lavel-1 with--drop slide-dropdown"><a href="#"><span>Transmisión en vivo</span></a>
+                                            <ul class="dropdown__menu">
+                                                <li><a href="shop-minimal.html"><span>Transmisión en vivo</span></a></li>
+                                                <li><a href="cart.html"><span>Transmisiones futuras</span></a></li>
+                                                <li><a href="compare.html"><span>Historial de transmisiones</span></a></li>
+                                            </ul>
+                                        </li>-->
+                                        <li class="lavel-1 with--drop slide--megamenu"><a
+                                                href="mis-cartones.php"><span>Mis cartones</span></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-right have-not-flex d-sm-flex pl--0 pr_md--0 pr_sm--0">
+                                <!-- End Minicart -->
+                                <ul class="social-icon icon-size-medium text-center tooltip-layout d-none d-sm-flex"
+                                    id="infoUsuario">
+                                    <div class="contenedor-login mt--20">
+                                        <div>
+                                            <form id="login_form" action="javascript:void(0);">
+                                                <input class="input-login" type="text" name="login-form-email"
+                                                    id="login-form-email" placeholder="Correo electrónico" required>
+                                                <input class="input-login" type="password" name="login-form-password"
+                                                    id="" placeholder="Contraseña" required>
+                                                <input type="submit" hidden id="enviar_login">
+                                            </form>
+                                        </div>
+                                        <div class="olvide-input">
+                                            <a href="#" id="recuperarPass">¿Olvidaste tu contraseña?</a>
+                                        </div>
+                                    </div>
+                                    <button class="btn-seguir2 mt--20" id="iniciarSesion">Iniciar sesión</button>
+                                    <button class="mt--20 ml--10 mr--10" id="registrarse">Registrarse</button>
+                                    <div style="display: none;" id="usuario" class="">
+                                        <p></p>
+                                        <button class="btn-seguir2" id="salir">Cerrar sesión</button>
+                                    </div>
+
+                                </ul>
+                                <!-- Start Hamberger -->
+                                <!-- Start Minicart -->
+                                <div class="mini-cart">
+                                    <div id="minicart-trigger" class="minicart-trigger mini-cart-button" data-count="3">
+                                        <button><i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                    <div class="shopping-cart cart-box">
+                                        <div class="shop-inner">
+                                            <div class="header">
+                                                <ul class="product-list">
+
+                                                    <!-- Start Single Product -->
+                                                    <li>
+                                                        <div class="thumb">
+                                                            <a href="single-product.html">
+                                                                <img src="img/product/sm-image/sm-cat1-01.jpg"
+                                                                    alt="Multipurpose template">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <div class="inner">
+                                                                <h4><a href="single-product.html">Bottle with Leather
+                                                                        Grip</a></h4>
+                                                                <div class="quatity">
+                                                                    <span>1 ×</span>
+                                                                    <span>39.00</span>
+                                                                </div>
+                                                            </div>
+                                                            <button class="delete-btn"><i
+                                                                    class="fas fa-times"></i></button>
+                                                        </div>
+                                                    </li>
+
+                                                    <!-- Start Single Product -->
+                                                    <li>
+                                                        <div class="thumb">
+                                                            <a href="single-product.html">
+                                                                <img src="img/product/sm-image/sm-cat1-02.jpg"
+                                                                    alt="Multipurpose template">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <div class="inner">
+                                                                <h4><a href="single-product.html">Crystal Glass Globe
+                                                                        Desk Lamp</a></h4>
+                                                                <div class="quatity">
+                                                                    <span>1 ×</span>
+                                                                    <span>39.00</span>
+                                                                </div>
+                                                            </div>
+                                                            <button class="delete-btn"><i
+                                                                    class="fas fa-times"></i></button>
+                                                        </div>
+                                                    </li>
+
+                                                    <!-- Start Single Product -->
+                                                    <li>
+                                                        <div class="thumb">
+                                                            <a href="single-product.html">
+                                                                <img src="img/product/sm-image/sm-cat1-03.jpg"
+                                                                    alt="Multipurpose template">
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <div class="inner">
+                                                                <h4><a href="single-product.html">Gold Plated Desk
+                                                                        Lantern Lamp</a></h4>
+                                                                <div class="quatity">
+                                                                    <span>1 ×</span>
+                                                                    <span>39.00</span>
+                                                                </div>
+                                                            </div>
+                                                            <button class="delete-btn brook-transition"><i
+                                                                    class="fas fa-times"></i></button>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="footer">
+                                                <div class="total">Total: <span>225.00</span></div>
+                                                <a class="cart-btn brook-transition" href="checkout.html">Check out</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="manu-hamber popup-mobile-click d-block d-lg-none light-version pl_md--20 pl_sm--20">
+                                    <div>
+                                        <i></i>
+                                    </div>
+                                </div>
+                                <!-- End Hamberger -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--// Header -->
+
+        <!-- Start Brook Search Popup -->
+        <div class="brook-search-popup">
+            <div class="inner">
+                <div class="search-header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo-loteria.png" alt="logo images">
+                        </a>
+                    </div>
+                    <a href="#" class="search-close"></a>
+                </div>
+                <div class="search-content">
+                    <form action="#">
+                        <label>
+                            <input type="search" placeholder="Enter search keyword…">
+                        </label>
+                        <button class="search-submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Brook Search Popup -->
+
+        <!-- Start Popup Menu -->
+        <div class="popup-mobile-manu popup-mobile-visiable">
+            <div class="inner">
+                <div class="mobileheader">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo-loteria.png" alt="Multipurpose">
+                        </a>
+                    </div>
+                    <a class="mobile-close" href="#"></a>
+                </div>
+                <div class="menu-content">
+                    <ul class="menulist object-custom-menu">
+                        <a href="index.html">
+                            <li class="has-mega-menu"><span>Inicio</span>
+                            </li>
+                        </a>
+                        <a href="tienda.php">
+                            <li class="has-mega-menu"><span>Comprar Cartas</span>
+                            </li>
+                        </a>
+                        <a href="juego.php">
+                            <li class="has-mega-menu"><span>Trasmisión en vivo</span>
+                            </li>
+                        </a>
+                        <a href="mis-cartones.php">
+                            <li class="has-mega-menu"><span>Mis cartones mobile</span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Popup Menu -->
+
+
+        <!-- START REVOLUTION SLIDER -->
+        <div class="slider-revoluation">
+            <div id="rev_slider_6_1" class="rev_slider rev_slider_6_1 fullscreenbanner" style="display:none;"
+                data-version="5.4.7">
+                <ul>
+                    <!-- SLIDE  -->
+
+
+
+                </ul>
+                <div class="tp-static-layers">
+
+                    <!-- LAYER NR. 41 
+                    <div class="tp-caption   tp-resizeme tp-static-layer" id="slider-6-layer-16" data-x="['left','left','left','left']"
+                        data-hoffset="['70','70','70','70']" data-y="['middle','middle','middle','middle']"
+                        data-voffset="['0','0','0','0']" data-width="30" data-height="none" data-whitespace="normal"
+                        data-visibility="['on','on','off','off']" data-type="text" data-basealign="slide"
+                        data-responsive_offset="on" data-startslide="0" data-endslide="2" data-frames='[{"delay":2000,"split":"chars","splitdelay":0.05,"speed":2000,"split_direction":"forward","frame":"0","from":"y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 45; min-width: 30px; max-width: 30px; white-space: normal; font-size: 24px; line-height: 70px; font-weight: 800; color: #ffffff;text-transform:uppercase;">J U E G A </div>-->
+
+                    <!-- LAYER NR. 42 
+                    <div class="tp-caption    slide-status-numbers tp-static-layer" id="slider-6-layer-18" data-x="['right','right','right','right']"
+                        data-hoffset="['60','60','60','60']" data-y="['middle','middle','middle','middle']"
+                        data-voffset="['-110','-110','-110','-110']" data-width="37" data-height="none" data-whitespace="normal"
+                        data-visibility="['on','on','off','off']" data-type="text" data-basealign="slide"
+                        data-responsive_offset="off" data-responsive="off" data-startslide="0" data-endslide="2"
+                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 46; min-width: 37px; max-width: 37px; white-space: normal; font-size: 36px; line-height: 51px; font-weight: 700; color: #ffffff;font-family:Poppins;">01
+                    </div>-->
+
+                    <!-- LAYER NR. 43 
+                    <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer" id="slider-6-layer-19" data-x="['right','right','right','right']"
+                        data-hoffset="['74','74','74','74']" data-y="['middle','middle','middle','middle']"
+                        data-voffset="['0','0','0','0']" data-width="3" data-height="150" data-whitespace="normal"
+                        data-visibility="['on','on','off','off']" data-type="shape" data-basealign="slide"
+                        data-responsive_offset="off" data-responsive="off" data-startslide="0" data-endslide="2"
+                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 47;background-color:rgb(255,255,255);">
+                    </div>-->
+
+                    <!-- LAYER NR. 44 
+                    <div class="tp-caption   tp-static-layer" id="slider-6-layer-20" data-x="['right','right','right','right']"
+                        data-hoffset="['62','62','62','62']" data-y="['middle','middle','middle','middle']"
+                        data-voffset="['110','110','110','110']" data-width="none" data-height="none" data-whitespace="nowrap"
+                        data-visibility="['on','on','off','off']" data-type="text" data-basealign="slide"
+                        data-responsive_offset="off" data-responsive="off" data-startslide="0" data-endslide="2"
+                        data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 48; white-space: nowrap; font-size: 20px; line-height: 28px; font-weight: 700; color: #ffffff;font-family:Poppins;">03
+                    </div>-->
+                </div>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+        </div>
+
+        <div id="youTube">
+            <iframe width="400" height="400" src="" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <!-- End REVOLUTION SLIDER -->
+    </div>
+
+    <!--// Wrapper -->
+
+    <!-- Js Files -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="js/revolution.extension.actions.min.js"></script>
+    <script src="js/revolution.extension.carousel.min.js"></script>
+    <script src="js/revolution.extension.kenburn.min.js"></script>
+    <script src="js/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/revolution.extension.migration.min.js"></script>
+    <script src="js/revolution.extension.navigation.min.js"></script>
+    <script src="js/revolution.extension.parallax.min.js"></script>
+    <script src="js/revolution.extension.slideanims.min.js"></script>
+    <script src="js/revolution.extension.video.min.js"></script>
+
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.16/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="server/controllers/get.js"></script>
+    <script type="text/javascript" src="server/controllers/index_1658177167.js"></script>
+    <script type="text/javascript" src="server/controllers/home.js"></script>
+    <script type="text/javascript">
+        function revStart() {
+            var revapi2,
+                tpj;
+            tpj = jQuery;
+            if (tpj("#rev_slider_6_1").revolution == undefined) {
+                //alert("MAL")
+                revslider_showDoubleJqueryError("#rev_slider_6_1");
+            } else {
+                //alert("bien")
+                revapi2 = tpj("#rev_slider_6_1").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "//localhost/revslider-standalone/revslider/public/assets/js/",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        onHoverStop: "off",
+                        arrows: {
+
+                            enable: true,
+                            style: 'hesperiden',
+                            tmp: '',
+                            rtl: false,
+                            hide_onleave: false,
+                            hide_onmobile: true,
+                            hide_under: 0,
+                            hide_over: 9999,
+                            hide_delay: 200,
+                            hide_delay_mobile: 1200,
+
+                            left: {
+                                container: 'slider',
+                                h_align: 'left',
+                                v_align: 'center',
+                                h_offset: 20,
+                                v_offset: 0
+                            },
+
+                            right: {
+                                container: 'slider',
+                                h_align: 'right',
+                                v_align: 'center',
+                                h_offset: 20,
+                                v_offset: 0
+                            }
+
+                        }
+                    },
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1780, 1024, 778, 480],
+                    gridheight: [1000, 900, 800, 700],
+                    lazyType: "none",
+                    minHeight: "700",
+                    shadow: 0,
+                    spinner: "spinner3",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        #youTube {
+            position: fixed;
+            z-index: 9999999999999;
+            top: 30vh;
+            right: 1vw;
+        }
+    </style>
+</body>
+
+</html>

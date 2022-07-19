@@ -1,0 +1,8 @@
+*.png
+*.jpeg
+*.jpg
+/Elotto_noSirve_bajarNuevo
+/.well-know
+/.server
+/.sas-cache
+/inner-page
