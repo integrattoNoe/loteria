@@ -22,19 +22,19 @@ function guardar_datos_envio()
 	global $loginExp;
 	try {
 		$conn = PDOConnection::getConnection();
-		$sql = "UPDATE clients SET First_name = :nombre, Last_name = :apellidos, Phone = :telefono, Address1 = :adress1, Address2 = :adress2, Zip_code = :cp, Location = '', City = :ciudad, State = :estado, Country = :pais, Updated_at = :fecha
+		$sql = "UPDATE clients SET First_name = :nombre, Last_name = :apellidos, Phone = :telefono, Updated_at = :fecha
 				WHERE ID = :id";
 		$d = time();
 		$fecha = date("Y-m-d H:i:s", $d);
 		$stm = $conn->prepare($sql);
 		$stm->bindParam(":nombre", $_POST["nombre"]);
 		$stm->bindParam(":apellidos", $_POST["apellido"]);
-		$stm->bindParam(":adress1", $_POST["direccion1"]);
+		/*$stm->bindParam(":adress1", $_POST["direccion1"]);
 		$stm->bindParam(":adress2", $_POST["direccion2"]);
 		$stm->bindParam(":ciudad", $_POST["ciudad"]);
 		$stm->bindParam(":pais", $_POST["pais"]);
 		$stm->bindParam(":estado", $_POST["estado"]);
-		$stm->bindParam(":cp", $_POST["cp"]);
+		$stm->bindParam(":cp", $_POST["cp"]);*/
 		$stm->bindParam(":telefono", $_POST["telefono"]);
 		$stm->bindParam(":fecha", $fecha);
 		$tmp = json_decode($_COOKIE["lotto_lg"], true);

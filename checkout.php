@@ -628,26 +628,14 @@ if (!isset($_COOKIE["lotto_lg"])) {
                                                         <input type="text" placeholder="" name="telefono" required>
                                                     </div>
 
-                                                    <!--<div class="col-12 mb--20">
-                                                    <label>Company Name</label>
-                                                    <input type="text" placeholder="Company Name" >
-                                                </div>--->
-
-                                                    <div class="col-12 mb--20">
+                                                    <!--div class="col-12 mb--20">
                                                         <label>Dirección*</label>
                                                         <input type="text" placeholder="Línea 1" name="direccion1" required>
                                                         <input type="text" placeholder="Línea 2" name="direccion2">
-                                                    </div>
+                                                    </div-->
 
-                                                    <div class="col-md-6 col-12 mb--20">
+                                                    <!--div class="col-md-6 col-12 mb--20">
                                                         <label>País*</label>
-                                                        <!--<select class="nice-select">
-                                                        <option>Bangladesh</option>
-                                                        <option>China</option>
-                                                        <option>country</option>
-                                                        <option>India</option>
-                                                        <option>Japan</option>
-                                                    </select>-->
                                                         <input type="text" placeholder="" name="pais" required>
                                                     </div>
 
@@ -664,7 +652,7 @@ if (!isset($_COOKIE["lotto_lg"])) {
                                                     <div class="col-md-6 col-12 mb--20">
                                                         <label>Código postal*</label>
                                                         <input type="text" placeholder="" name="cp" required>
-                                                    </div>
+                                                    </div-->
 
                                                     <!--<div class="col-12 mb--20">
                                                     <div class="check-box">
